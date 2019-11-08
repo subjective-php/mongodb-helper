@@ -3,6 +3,7 @@
     "description": "Collection of classes to assist with various mongodb operations",
     "require": {
         "php": "^7.0",
+        "ext-mongodb": "^1.4.3",
         "mongodb/mongodb": "^1.0"
     },
     "require-dev": {
