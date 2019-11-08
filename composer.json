@@ -6,5 +6,15 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "SubjectivePHP\\MongoDB\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SubjectivePHPTest\\MongoDB\\": "tests"
+        }
     }
 }
