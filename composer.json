@@ -1,5 +1,6 @@
 {
     "name": "subjective-php/mongodb-helper",
+    "description": "Collection of classes to assist with various mongodb operations",
     "require": {
         "php": "^7.0"
     }
