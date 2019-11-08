@@ -1,4 +1,5 @@
 {
+    "name": "subjective-php/mongodb-helper",
     "require": {
         "php": "^7.0"
     }
