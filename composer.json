@@ -5,6 +5,9 @@
         "php": "^7.0",
         "mongodb/mongodb": "^1.0"
     },
+    "require-dev": {
+        "chadicus/coding-standard": "^1.8"
+    },
     "config": {
         "sort-packages": true
     },
