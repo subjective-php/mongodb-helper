@@ -3,5 +3,8 @@
     "description": "Collection of classes to assist with various mongodb operations",
     "require": {
         "php": "^7.0"
+    },
+    "config": {
+        "sort-packages": true
     }
 }
