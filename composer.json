@@ -1,5 +1,29 @@
 {
+    "name": "subjective-php/mongodb-helper",
+    "description": "Collection of classes to assist with various mongodb operations",
+    "license": "MIT",
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "ext-mongodb": "^1.4.3",
+        "mongodb/mongodb": "^1.0"
+    },
+    "require-dev": {
+        "chadicus/coding-standard": "^1.8",
+        "phing/phing": "^2.16",
+        "php-coveralls/php-coveralls": "^2.1",
+        "phpunit/phpunit": "^6.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "SubjectivePHP\\MongoDB\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SubjectivePHPTest\\MongoDB\\": "tests"
+        }
     }
 }
