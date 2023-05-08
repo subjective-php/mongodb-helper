@@ -3,7 +3,7 @@
     "description": "Collection of classes to assist with various mongodb operations",
     "license": "MIT",
     "require": {
-        "php": "^7.0",
+        "php": "^7.0||^8.0",
         "ext-mongodb": "^1.0",
         "mongodb/mongodb": "^1.0"
     },
