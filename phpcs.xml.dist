@@ -5,6 +5,5 @@
     <arg name="colors" />
     <arg value="p" />
     <rule ref="PSR2" />
-    <arg name="report-checkstyle" value="reports/checkstyle.xml"/>
     <arg name="report-full" />
 </ruleset>

@@ -1,4 +1,4 @@
-<phpunit colors="true" forceCoversAnnotation="true">
+<phpunit colors="true">
     <testsuites>
         <testsuite name="PHP Library Test Suite">
             <directory suffix="Test.php">tests</directory>
@@ -9,7 +9,4 @@
             <directory>src</directory>
         </whitelist>
     </filter>
-    <logging>
-        <log type="coverage-clover" target="./reports/clover.xml"/>
-    </logging>
 </phpunit>

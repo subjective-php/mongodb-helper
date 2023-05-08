@@ -3,6 +3,7 @@
 namespace SubjectivePHPTest\MongoDB\Providers;
 
 use MongoDB\BSON\ObjectId;
+use OutOfBoundsException;
 use PHPUnit\Framework\TestCase;
 use SubjectivePHP\MongoDB\Providers\QueueObjectIdProvider;
 
@@ -15,11 +16,11 @@ final class QueueObjectIdProviderTest extends TestCase
     /**
      * @test
      * @covers ::provideObjectId
-     * @expectedException \OutOfBoundsException
-     * @expectedExceptionMessage ObjectId queue is empty
      */
     public function provideObjectIdWithEmptyQueue()
     {
+        $this->expectException(OutOfBoundsException::class);
+        $this->expectExceptionMessage('ObjectId queue is empty');
         $provider = new QueueObjectIdProvider([]);
         $provider->provideObjectId();
     }
