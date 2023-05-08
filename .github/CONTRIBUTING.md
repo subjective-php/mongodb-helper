@@ -10,7 +10,7 @@ Submit via [GitHub Issues](https://github.com/chadicus/mongodb-helper/issues).
 Code changes should be sent through [GitHub Pull Requests](https://github.com/chadicus/mongodb-helper/pulls).  Before submitting the pull request, make sure that phpunit reports success:
 
 ```sh
-./vendor/bin/phing phpunit
+./vendor/bin/phpunit
 ```
 
 While the build does not enforce 100% [PHPUnit](http://www.phpunit.de) code coverage, it will not allow coverage to drop below its current percentage.
@@ -18,5 +18,5 @@ While the build does not enforce 100% [PHPUnit](http://www.phpunit.de) code cove
 The build will also not allow any errors for the [coding standard](http://chadicus.github.io/coding-standard/)
 
 ```sh
-./vendor/bin/phing phpcs
+./vendor/bin/phpcs
 ```
