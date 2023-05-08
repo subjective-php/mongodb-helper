@@ -9,7 +9,6 @@
     },
     "require-dev": {
         "chadicus/coding-standard": "^1.8",
-        "phing/phing": "^2.16",
         "phpunit/phpunit": "^6.5"
     },
     "config": {
